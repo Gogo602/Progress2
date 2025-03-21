@@ -47,7 +47,7 @@ app.put('/teas/:id', (req, res) => {
 
 //delete tea
 app.delete('/tea/:id', (req, res) =>{
-    teaData.findIndex(t => t.id === parseInt(req.params.id))
+   const index = teaData.findIndex(t => t.id === parseInt(req.params.id))
     if (index === -1) {
         return res.status(404).send('Tea not found')
     }
