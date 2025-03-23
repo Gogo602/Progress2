@@ -1,0 +1,3 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"49.310\"}","timestamp":"2025-03-23T22:46:57.653Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post request was made to /teas","timestamp":"2025-03-23T22:56:24.675Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"542.738\"}","timestamp":"2025-03-23T22:56:26.379Z"}
