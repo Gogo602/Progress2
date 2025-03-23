@@ -20,6 +20,7 @@ const logToFIle = (event) => {
 
 logger.on('message', logToFIle)
 
+//every 3secs this intervals runs and update the result on the event file
 setInterval(() => {
     const memoryUsage = (os.freemem() / os.totalmem()) * 100
     logger.log(`current memory usage: ${memoryUsage.toFixed(2)}`)
