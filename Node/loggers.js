@@ -11,7 +11,7 @@ class Logger extends EventEmitter {
 }
 
 const logger = new Logger()
-const logFile = './eventlog.txt'
+const logFile = './eventlog.txt' //creating and writing to this file
 
 const logToFIle = (event) => {
     const logMessage = `${new Date().toISOString()} - ${event.message} \n`
